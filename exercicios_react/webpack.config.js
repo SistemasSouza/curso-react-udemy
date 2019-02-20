@@ -10,6 +10,9 @@ module.exports = {
         contentBase:path.join(__dirname,'public'),
         compress:true
     },
+    resolve:{
+      extensions:['.js','.jsx']
+    },
     module:{
         rules: [
             {
