@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Field from './Field'
+import Family from './family'
 
 ReactDOM.render(
-    <Field initialValue='Denis'/>
+    <Family/>
     ,document.getElementById('app'))
